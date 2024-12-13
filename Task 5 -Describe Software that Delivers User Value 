@@ -1,0 +1,7 @@
+Describe product or project you worked on that delivered high value to the user. Which specific aspects did you think were critical in successfully creating value for the user?
+
+
+One project I worked on involved developing an integration platform for the automobile industry, which facilitated seamless data exchange between heterogeneous tools.
+The platform consisted of a backend with Java and multiple microservices that acted as adapters, and a web application for user interaction,RabbitMQ for communication between the components.
+The integration platform addressed a key challenge faced by suppliers and OEMs, who struggled with tracking and managing change requests, defects, and other critical data across various tools. By enabling seamless data exchange between numerous heterogeneous tools, the platform significantly streamlined this process.
+I think the critical aspect that brought value to user is the solution's plug-and-play capability which allowed new tools to be easily integrated, reducing the operational overhead for both suppliers and OEMs and enhancing overall efficiency.

@@ -1,0 +1,19 @@
+01    boolean checkStudy(Student student){
+02        if(student.isLoggedIn()){
+03            if(student.getTeacherName() == "Lee")         {
+04               if(student.isEnrolledInMaths()){
+05                    if(student.hasDistinction())
+06                        return true;
+07                }
+08            }
+09        }
+10        return false;
+11    }
+
+
+Following will be my review comments for the above code:
+
+    1. The method has too many nested If statements , code needs to be readable and easier to follow. Suggestion : refactor code by reducing the nested Ifs
+    2. String cannot be compared with "==" as it checks for reference equality not value . Suggestion : Use equals() method
+    3. The current method name is vague and does not clearly convey its functionality. Suggestion : Using a clear method name that describes the functionality
+    4. The method does not handle scenarios where the student object might be null. Suggestion: Add a null check for the student object at the start of the method to ensure robustness.
