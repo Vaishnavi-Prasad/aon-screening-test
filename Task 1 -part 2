@@ -1,0 +1,7 @@
+Part 2: Imagine you need to do something similar (timing of method calls) for many places in an application. What other ideas come to mind, e.g. could you propose other ideas for getting timing information more conveniently?
+
+
+Few of the ideas that could be used for many places in the application is :
+  1. To use a custom util class that acts a centralized class to measure and log the execution time of methods. In this case the code is centralized and can be dynamically called from any place in an application.
+  2. We can use tools like Micrometer and prometheus to monitor and analyze. Here we can create a configuration class that can be used to record the execution time in the required services.
+  3. Although I dont have experience with Spring AOP, I'm aware that it is used for centalizing logging, timing method calls,security etc.
